@@ -1,4 +1,6 @@
-# In this branch the main goal is to optimize how i am loading the settings from data.json and tasks from tasks.json. And hopefully use sessionStorage to reduce disk Read/Write drastically.
+# The main goal of this branch is to replace the old TextArea input field with an actual Markdown Editor, just like Obisidan Live Editor inside the AddOrEditTaskModal
+
+
 > Merge all the code from your development branch to this branch first for testing, once all things and functionalities have been tested, merge this branch with the main branch.
 
 # Task Board - Obsidian Plugin
