@@ -163,7 +163,10 @@ export class BoardConfigureModal extends Modal {
 			.addEventListener("click", () => {
 				const newColumn = {
 					colType: "undated",
-					name: "New Column",
+					data: {
+						index: board.columns.length,
+						name: "New Column",
+					},
 					active: true,
 				};
 				board.columns.push(newColumn);
